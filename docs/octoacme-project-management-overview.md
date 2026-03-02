@@ -14,11 +14,27 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
+- Sponsor: provides strategic direction, secures resources, and approves major scope changes.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Project Manager (PM): coordinates delivery, schedules, risk, and communications.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- UX Designer: leads user research and interaction design; validates usability.
+- QA Lead: owns quality strategy, test planning, and release certification.
+- Scrum Master: facilitates agile ceremonies, removes blockers, and coaches the team.
+- Technical Writer: creates and maintains user-facing and developer documentation.
+
+See [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md) for full role definitions.
+
+## Role Interactions and Dependencies
+Cross-functional collaboration is central to OctoAcme's delivery model. Key interaction patterns include:
+
+- **Sponsor ↔ PM/PdM**: Periodic status updates and escalation for scope or budget decisions.
+- **PdM ↔ UX Designer**: Joint definition of feature requirements and usability validation.
+- **PM ↔ Scrum Master**: Coordination on sprint scheduling, cross-team dependencies, and blockers.
+- **QA Lead ↔ Developers**: Shared ownership of test coverage, defect resolution, and release readiness.
+- **Technical Writer ↔ Developers/PdM**: Documentation requirements included in acceptance criteria and reviewed before release.
+
+For a full interaction matrix and RACI model, see [octoacme-roles-interaction-matrix.md](octoacme-roles-interaction-matrix.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
